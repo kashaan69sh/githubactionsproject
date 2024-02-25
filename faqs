@@ -1,4 +1,11 @@
+# For a Github actions runner 
 1- Go to actions tab 
 2- Click test python applications 
 3- Write your first-actions.yml file
-
+# for Self Hosted runner 
+1- Create a ec2 on any cloud provider 
+2- Edit the inbound and outbound traffic rules
+ add https , http and add anywhere IPv4 in both set of rules
+3-go to github setting and add self hosted runner as linux and set x64
+4- copy the set of statements
+5- write ./run.sh to check and its takes sometime till yellow mark changes to green on github
